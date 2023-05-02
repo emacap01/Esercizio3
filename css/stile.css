@@ -1,0 +1,137 @@
+@font-face {
+    font-family:'PlayfairDisplay';
+    src: url(../font/PlayfairDisplay-Semibold.ttf);
+    font-family: 'Chivo';
+    src:url(../font/Chivo-Regular.ttf);
+}
+body{
+    font-weight: normal;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    max-width: fit-content;
+    margin: auto;
+}
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+a{
+    color:#1A647C ;
+    text-decoration: none;
+}
+header nav ul{
+    color:#286E84;
+    list-style: none;
+    display: flex;
+    padding-top: 20%;
+    gap: 10px;
+    font-family: 'Chivo';
+    src:url(../font/Chivo-Regular.ttf);
+}
+header p{
+    font-family:'PlayfairDisplay';
+    src: url(../font/PlayfairDisplay-Semibold.ttf);
+    font-size: 48px;
+    color: #1A647C;
+
+}
+.nav a{
+    color: white;
+
+}
+.titolo{
+    font-family:'PlayfairDisplay';
+    src: url(../font/PlayfairDisplay-Semibold.ttf);
+    font-size: 64px;
+    color: #1A647C;
+}
+.testo{
+    font-family: 'Chivo';
+    src:url(../font/Chivo-Regular.ttf);
+    font-size:30px;
+    color: #08404D;
+}
+.testo2{
+    font-family: 'Chivo';
+    src:url(../font/Chivo-Regular.ttf);
+    font-size: 24px;
+    color: #4C5C72;
+}
+#hero{
+    width: 100%;
+    margin: 0;
+}
+.navigation{
+    height: min-content;
+    
+}
+.nav{
+    background-color: #16AF9D;
+    color: white;
+    font-family: 'Chivo';
+    src:url(../font/Chivo-Regular.ttf);
+    padding: 1%;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.middle{
+    padding: 7%;
+    background-color: #E4F7F5;
+    display: flex;
+    justify-content: space-around;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    text-justify:distribute;
+    justify-content: center;
+}
+
+
+#portfolio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+#imm{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Chivo';
+    src:url(../font/Chivo-Regular.ttf);
+    color: #4C5C72;
+
+}
+footer{
+    background-color: #16AF9D;
+    display: flex;
+    justify-content:space-between ;
+    padding: 2%;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+footer a{
+    color: white;
+}
